@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+body {
+  background: #e5e5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  font-family: "Inter", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  justify-content: space-between;
+  background-color: tranceparent;
+  color: black;
+}
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: black;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.kk {
+  font-family: "Inter", sans-serif;
+  font-size: 66px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.bg img {
+  height: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  position: absolute;
+  width: 1120.29px;
+  height: 531.62px;
+  padding-left: 400px;
+}
+#pass {
+  font-family: "Inter", sans-serif;
+  padding-top: 100px;
+  padding-left: 60px;
+}
